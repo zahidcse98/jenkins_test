@@ -1,0 +1,153 @@
+{
+  "uuid": "d838b5f5-2a3c-45e5-9a27-0332d1cc32df",
+  "historyId": "f554f52589100dce635acfa2991c47ea",
+  "testCaseId": "5fc7e468162884c2fd02b920d7b2eca8",
+  "fullName": "unit5_final_task/Accuweather/Features/Window Example test/Handling Alert Box",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ZAHIDCSE98-PC"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Window Example test"
+    }
+  ],
+  "links": [],
+  "name": "Handling Alert Box",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Alert Box Examples Page Is not Displayed!!\r\n  Expected: True\r\n  But was:  False\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Alert Box Examples Page Is not Displayed!!\r\n  Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition, String message, Object[] args)\r\n   at unit5_final_task.Accuweather.StepDefinations.WindowTestSteps.WindowPageIsDisplayed() in D:\\a1qa\\Z.HASAN\\unit5_final_task\\Accuweather\\StepDefinations\\WindowTestSteps.cs:line 20\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I navigate to the homepage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325247104,
+      "stop": 1707325277332
+    },
+    {
+      "name": "And  Windows Links and Example page is opened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325277334,
+      "stop": 1707325277389
+    },
+    {
+      "name": "When  I Click Alerts In A New Window From Javascript Link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325277389,
+      "stop": 1707325278965
+    },
+    {
+      "name": "Then  The Alert Box Examples Page Is opened in a new tab",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Alert Box Examples Page Is not Displayed!!\r\n  Expected: True\r\n  But was:  False\r\n",
+        "trace": "NUnit.Framework.AssertionException:   Alert Box Examples Page Is not Displayed!!\r\n  Expected: True\r\n  But was:  False\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.IsTrue(Boolean condition, String message, Object[] args)\r\n   at unit5_final_task.Accuweather.StepDefinations.WindowTestSteps.WindowPageIsDisplayed() in D:\\a1qa\\Z.HASAN\\unit5_final_task\\Accuweather\\StepDefinations\\WindowTestSteps.cs:line 20\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325278966,
+      "stop": 1707325309228
+    },
+    {
+      "name": "When  I Click Show Prompt Box btn",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325309229,
+      "stop": 1707325309230
+    },
+    {
+      "name": "And  I Wait Until the alert box is displayed",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325309235,
+      "stop": 1707325309313
+    },
+    {
+      "name": "Then  I Put SomeValue into the input box and accept the alert",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325309315,
+      "stop": 1707325309315
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1707325247074,
+  "stop": 1707325309324
+}

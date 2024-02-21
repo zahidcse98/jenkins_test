@@ -1,0 +1,137 @@
+{
+  "uuid": "277916ce-08d8-42d2-8103-c8b237df1797",
+  "historyId": "f554f52589100dce635acfa2991c47ea",
+  "testCaseId": "5fc7e468162884c2fd02b920d7b2eca8",
+  "fullName": "unit5_final_task/Accuweather/Features/Window Example test/Handling Alert Box",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ZAHIDCSE98-PC"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Window Example test"
+    }
+  ],
+  "links": [],
+  "name": "Handling Alert Box",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "invalid selector: Unable to locate an element with the xpath expression //*[contains(text(),'You clicked OK. 'prompt' returned')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(text(),'You clicked OK. 'prompt' returned')]' is not a valid XPath expression.\n  (Session info: chrome=121.0.6167.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+    "trace": "OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[contains(text(),'You clicked OK. 'prompt' returned')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(text(),'You clicked OK. 'prompt' returned')]' is not a valid XPath expression.\n  (Session info: chrome=121.0.6167.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)\r\n   at Aquality.Selenium.Core.Elements.ElementFinder.<>c__DisplayClass12_0.<FindElements>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Aquality.Selenium.Core.Waitings.ConditionalWait.WaitFor[T](Func`2 condition, Nullable`1 timeout, Nullable`1 pollingInterval, String message, IList`1 exceptionsToIgnore)\r\n   at Aquality.Selenium.Core.Elements.ElementFinder.FindElements(By locator, DesiredState desiredState, Nullable`1 timeout, String name)\r\n   at Aquality.Selenium.Core.Elements.ElementFinder.FindElements(By locator, ElementState state, Nullable`1 timeout, String name)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.IsAnyElementFound(Nullable`1 timeout, ElementState state)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.<>c__DisplayClass17_0.<WaitForDisplayed>b__0()\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.DoAndLogWaitForState(Func`1 waitingAction, String conditionKeyPart, Nullable`1 timeout)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.WaitForDisplayed(Nullable`1 timeout)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.get_IsDisplayed()\r\n   at unit5_final_task.Accuweather.Pages.WindowTest.SuccessMessageIsShow() in D:\\a1qa\\Z.HASAN\\unit5_final_task\\Accuweather\\Pages\\windowtest.cs:line 32\r\n   at unit5_final_task.Accuweather.StepDefinations.WindowTestSteps.InputSomeValueAndAcceptAlert() in D:\\a1qa\\Z.HASAN\\unit5_final_task\\Accuweather\\StepDefinations\\WindowTestSteps.cs:line 58\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I navigate to the homepage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707326861805,
+      "stop": 1707326892080
+    },
+    {
+      "name": "And  Windows Links and Example page is opened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707326892083,
+      "stop": 1707326892142
+    },
+    {
+      "name": "When  I Click Alerts In A New Window From Javascript Link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707326892142,
+      "stop": 1707326894009
+    },
+    {
+      "name": "Then  The Alert Box Examples Page Is opened in a new tab",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707326894009,
+      "stop": 1707326894134
+    },
+    {
+      "name": "When  I Click Show Prompt Box btn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707326894135,
+      "stop": 1707326894405
+    },
+    {
+      "name": "Then  I Put SomeValue into the input box and accept the alert",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "invalid selector: Unable to locate an element with the xpath expression //*[contains(text(),'You clicked OK. 'prompt' returned')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(text(),'You clicked OK. 'prompt' returned')]' is not a valid XPath expression.\n  (Session info: chrome=121.0.6167.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+        "trace": "OpenQA.Selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[contains(text(),'You clicked OK. 'prompt' returned')] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[contains(text(),'You clicked OK. 'prompt' returned')]' is not a valid XPath expression.\n  (Session info: chrome=121.0.6167.140); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElements(String mechanism, String value)\r\n   at Aquality.Selenium.Core.Elements.ElementFinder.<>c__DisplayClass12_0.<FindElements>b__0(IWebDriver driver)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)\r\n   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)\r\n   at Aquality.Selenium.Core.Waitings.ConditionalWait.WaitFor[T](Func`2 condition, Nullable`1 timeout, Nullable`1 pollingInterval, String message, IList`1 exceptionsToIgnore)\r\n   at Aquality.Selenium.Core.Elements.ElementFinder.FindElements(By locator, DesiredState desiredState, Nullable`1 timeout, String name)\r\n   at Aquality.Selenium.Core.Elements.ElementFinder.FindElements(By locator, ElementState state, Nullable`1 timeout, String name)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.IsAnyElementFound(Nullable`1 timeout, ElementState state)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.<>c__DisplayClass17_0.<WaitForDisplayed>b__0()\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.DoAndLogWaitForState(Func`1 waitingAction, String conditionKeyPart, Nullable`1 timeout)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.WaitForDisplayed(Nullable`1 timeout)\r\n   at Aquality.Selenium.Core.Elements.ElementStateProvider.get_IsDisplayed()\r\n   at unit5_final_task.Accuweather.Pages.WindowTest.SuccessMessageIsShow() in D:\\a1qa\\Z.HASAN\\unit5_final_task\\Accuweather\\Pages\\windowtest.cs:line 32\r\n   at unit5_final_task.Accuweather.StepDefinations.WindowTestSteps.InputSomeValueAndAcceptAlert() in D:\\a1qa\\Z.HASAN\\unit5_final_task\\Accuweather\\StepDefinations\\WindowTestSteps.cs:line 58\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707326894406,
+      "stop": 1707326894574
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1707326861772,
+  "stop": 1707326894591
+}

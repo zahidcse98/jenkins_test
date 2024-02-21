@@ -1,0 +1,43 @@
+{
+  "uuid": "0a777501-29f0-4115-a803-8b9c7b982a32",
+  "children": [
+    "4332db7d-89f3-47a1-92e0-d8350fada14b"
+  ],
+  "befores": [
+    {
+      "name": "Setup [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325083293,
+      "stop": 1707325088116
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325150950,
+      "stop": 1707325151483
+    }
+  ],
+  "links": [],
+  "start": 1707325083288,
+  "stop": 1707325151526
+}

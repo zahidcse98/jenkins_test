@@ -1,0 +1,150 @@
+{
+  "uuid": "12f44c17-2e2f-4fb6-86f3-8c6141cdc21e",
+  "historyId": "f554f52589100dce635acfa2991c47ea",
+  "testCaseId": "5fc7e468162884c2fd02b920d7b2eca8",
+  "fullName": "unit5_final_task/Accuweather/Features/Window Example test/Handling Alert Box",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ZAHIDCSE98-PC"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Window Example test"
+    }
+  ],
+  "links": [],
+  "name": "Handling Alert Box",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching definition found for the step 'I Wait Until the alert box is displayed'"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I navigate to the homepage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325848261,
+      "stop": 1707325878692
+    },
+    {
+      "name": "And  Windows Links and Example page is opened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325878694,
+      "stop": 1707325878749
+    },
+    {
+      "name": "When  I Click Alerts In A New Window From Javascript Link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325878749,
+      "stop": 1707325880412
+    },
+    {
+      "name": "Then  The Alert Box Examples Page Is opened in a new tab",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325880413,
+      "stop": 1707325880542
+    },
+    {
+      "name": "When  I Click Show Prompt Box btn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325880542,
+      "stop": 1707325880885
+    },
+    {
+      "name": "And  I Wait Until the alert box is displayed",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325880885,
+      "stop": 1707325881080
+    },
+    {
+      "name": "Then  I Put SomeValue into the input box and accept the alert",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707325881093,
+      "stop": 1707325881095
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1707325848219,
+  "stop": 1707325881202
+}

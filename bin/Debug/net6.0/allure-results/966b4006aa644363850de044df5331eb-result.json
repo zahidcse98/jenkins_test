@@ -1,0 +1,133 @@
+{
+  "uuid": "9f85d070-cdf4-48c9-9726-b4b21b2954b1",
+  "historyId": "f554f52589100dce635acfa2991c47ea",
+  "testCaseId": "5fc7e468162884c2fd02b920d7b2eca8",
+  "fullName": "unit5_final_task/Accuweather/Features/Window Example test/Handling Alert Box",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ZAHIDCSE98-PC"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "SpecFlow"
+    },
+    {
+      "name": "feature",
+      "value": "Window Example test"
+    }
+  ],
+  "links": [],
+  "name": "Handling Alert Box",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I navigate to the homepage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707327239850,
+      "stop": 1707327270147
+    },
+    {
+      "name": "And  Windows Links and Example page is opened",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707327270149,
+      "stop": 1707327270249
+    },
+    {
+      "name": "When  I Click Alerts In A New Window From Javascript Link",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707327270249,
+      "stop": 1707327271525
+    },
+    {
+      "name": "Then  The Alert Box Examples Page Is opened in a new tab",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707327271525,
+      "stop": 1707327271679
+    },
+    {
+      "name": "When  I Click Show Prompt Box btn",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707327271679,
+      "stop": 1707327272393
+    },
+    {
+      "name": "Then  I Put SomeValue into the input box and accept the alert",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1707327272393,
+      "stop": 1707327272721
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1707327239806,
+  "stop": 1707327272726
+}

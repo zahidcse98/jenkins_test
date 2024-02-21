@@ -1,5 +1,6 @@
 {
   "allure": {
-    "directory": "allure-reports"
+    "directory": "allure-reports",
+    "cleanDirectory": true
   }
 }
